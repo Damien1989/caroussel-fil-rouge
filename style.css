@@ -6,15 +6,19 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     background: #e8e0e0;
 }
 
 .slider{
+    margin-left: 500px;
     width: 800px;
     height: 500px;
     border-radius: 5px;
     overflow: hidden;
-    vertical-align: top;
+    justify-content: center;
 }
 
 .slides{
@@ -30,13 +34,11 @@ body{
 .slide{
     width: 20%;
     transition: 2s;
-    vertical-align: top;
 }
 
 .slide img{
     width: 800px;
     height: 500px;
-    vertical-align: top;
 }
 
 /*css for manual slide navigation*/
@@ -81,7 +83,7 @@ body{
     margin-left: -60%;
 }
 
-    /*css for automatic navigation*/
+/*css for automatic navigation*/
 
 .navigation-auto{
     position: absolute;
@@ -116,4 +118,13 @@ body{
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40D3DC;
+}
+
+/* button */
+
+.btn-caroussel {
+text-align: center;
+}
+.family-buttons {
+    text-align: center;
 }
