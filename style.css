@@ -6,39 +6,21 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: inline-block;
+    display: inline-block;  
     justify-content: center;
     align-items: center;
     background: #e8e0e0;
-}
 
-.slider{
-    margin-left: 500px;
-    width: 800px;
-    height: 500px;
-    border-radius: 5px;
-    overflow: hidden;
-    justify-content: center;
-}
 
-.slides{
-    width: 500%;
-    height: 500px;
-    display: flex;
-}
+/* carousel */
 
-.slides input{
-    display: none;
+#carouselExampleControls{
+    width: 50%;
+    margin: auto;
 }
-
-.slide{
-    width: 20%;
-    transition: 2s;
-}
-
-.slide img{
-    width: 800px;
-    height: 500px;
+.carousel-item img{
+    width: 100%;
+    height: auto;
 }
 
 /*css for manual slide navigation*/
@@ -128,4 +110,6 @@ text-align: center;
 .family-buttons {
     text-align: center;
 }
+
+
 
