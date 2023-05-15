@@ -15,16 +15,19 @@ body {
 /* carousel */
 
 #carouselExampleControls{
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
+
+/*  media queries maxw 768px carousel example controls width 100% */
 
 .carousel-item {
     height: 500px;
 }
 .carousel-item img{
     width: 100%;
-    height: auto;
+    height: 500px;
+    object-fit: cover;
 }
 
 /*css for manual slide navigation*/
