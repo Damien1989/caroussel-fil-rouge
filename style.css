@@ -15,6 +15,9 @@ body {
 /* carousel */
 
 #carouselExampleControls{
+    display: flex;
+    justify-content: center;
+    position: relative;
     width: 70%;
     margin: auto;
 }
@@ -112,10 +115,15 @@ body {
 /* button */
 
 .btn-caroussel {
-text-align: center;
+    position: absolute;
+    top:89%;
 }
 .family-buttons {
     text-align: center;
+}
+
+.btn btn-secondary {
+    background-color: #a26152 !important;
 }
 
 
